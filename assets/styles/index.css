@@ -1,4 +1,5 @@
 
+
 .container {
     position: relative;
     padding-top: 100px;
@@ -15,27 +16,15 @@
     border-radius: 0px 0px 300px 300px;
 }
 
-@media screen and (max-width: 600px) {
-    .img {
-        position: static;
-        display: block;
-        margin: auto;
-        width: 100%;
-        max-width: 200px;
-        height: auto;
-    }
-}
-
-.text1 {
+.texto1 {
     font-size: 35px;
     color: rgb(255, 67, 34);
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
 
-.text2 {
+.texto2 {
     font-size: 45px;
-    max-width: 600px;
     color: rgb(100, 89, 93);
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
@@ -45,7 +34,7 @@
     border: none;
     font-size: 20px;
     padding: 5px;
-    width: 120px;
+    width: 160px;
     background-color:  rgb(255, 67, 34);
     color: white;
     margin-left: 10px;
@@ -57,4 +46,43 @@
     cursor: pointer;
     background-color:  rgb(134, 128, 130);
     transition: 0.3s;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1230px) {
+    .img {
+        position: static;
+        display: block;
+        margin: auto;
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+        margin-top: -110px;
+    }
+    .container {
+        padding-left: 0px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .img {
+        width: 70%;
+        max-width: 700px;
+        height: auto;
+        border-radius:  0px 0px 500px 500px;
+    }
+    .texto1 {
+        margin-top: 150px;
+    }
+    .texto2 {
+        max-width: 600px; 
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .texto2 {
+        max-width: 600px; 
+    }
 }

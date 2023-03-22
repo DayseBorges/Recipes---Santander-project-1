@@ -1,25 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>Recipes</title>
-</head>
-<body>
-    <div class="container">
-        <main>
-            <img class="img" src="./Imagenes/landing image/spaghetti-copia.jpg" alt="landing image">
-            <h2 class="text1" >No sabés que cocinar hoy?</h2>
-            <h1 class="text2" >Acá vas a encontrar recetas fáciles y deliciosas para hace en casa!</h1>
-            <br><br>
-            <a href="./Ingresar/Ingresar.html"><button class="botones" >Ingresar</button></a>
-            <a href="./Registro/Registrate.html"><button class="botones" >Registrate</button></a>
-        </main>
-    </div>
-</body>
+  </head>
+
+  <body>
+    <header></header>
+
+    <main>
+      <div class="container">
+        <img
+          class="img"
+          src="./assets/img/landing image/spaghetti-copia.jpg"
+          alt="landing image"
+        />
+        <h2 class="texto1">No sabés que cocinar hoy?</h2>
+        <h2 class="texto2">
+          Acá vas a encontrar recetas fáciles y deliciosas para hace en casa!
+        </h2>
+        <br /><br />
+        <a href="./pages/contacto.html"
+          ><button class="botones">Contactanos</button></a
+        >
+        <a href="#subscipcion"><button class="botones">Suscribite</button></a>
+
+        <section id="menu-recetas">
+          <div class="menu-recetas">
+            <p>Categorías</p>
+            <ul>
+              <img
+                width="200px"
+                src="./assets/img/recetas/Ñoquis De Papa Con Salsa De Tomate.jpg"
+                alt=""
+              />
+              <li>
+                <a
+                  href="./pages/destacados.html"
+                  target="iframe-categorias"
+                >
+                  Destacados del día</a
+                >
+              </li>
+
+              <img
+                width="200px"
+                src="./assets/img/random image/entrada.jpg"
+                alt=""
+              />
+              <li>Aperitivos</li>
+
+              <li>Almuerzos</li>
+              <li>Postres</li>
+            </ul>
+            <iframe
+              id="iframe-categorias"
+              name="iframe-categorias"
+              width="100%"
+              height="200px"
+            ></iframe>
+          </div>
+        </section>
+
+        <section id="receta-completa">
+          <iframe
+            id="iframe-receta"
+            name="iframe-receta"
+            width="100%"
+            height="500px"
+          ></iframe>
+        </section>
+
+        <div>
+          <h1 id="subscipcion">Suscribite!</h1>
+          <label for="subscipcion"
+            >Recibí en tu mail las últimas novedades culinarias</label
+          >
+          <input type="text" name="subscipcion" />
+        </div>
+      </div>
+    </main>
+
+    <footer></footer>
+  </body>
 </html>
