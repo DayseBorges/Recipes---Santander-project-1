@@ -1,18 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>Recipes</title>
-</head>
-<body>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <img class="logo" src="./assets/img/random image/chef (2).png" alt="logo de cocinalo">
+        <ul>
+          <a href="./pages/quienes-somos.html"><li>Quienes Somos</li></a>
+          <a href="./pages/contacto.html"><li>Contactanos</li></a>
+          <a href="./pages/subscripcion.html"><li>Subscribite</li></a>
+          <input type="text" placeholder="Buscá tu receta">
+        </ul>
+      </nav>
+    </header>
+
     <main>
-        <img width="1340" height="606" src="./Imagenes/landing image/spaghetti-g6791a0d7b_1280.jpg" alt="landing image">
-        <h2>¿No sabés que cocinar hoy?</h2>
-        <h1>Acá vas a encontrar recetas fáciles y deliciosas para hace en casa!</h1>
-        <a href="./Ingresar.html"><button>Ingresar</button></a>
-        <a href="./Home1.html"><button>Registrate</button></a>
+      <div class="container">
+        <img
+          class="img"
+          src="./assets/img/landing image/spaghetti-copia.jpg"
+          alt="landing image"
+        />
+        
+        <h2 class="texto1">No sabés que cocinar hoy?</h2>
+        <h2 class="texto2">
+          Acá vas a encontrar recetas fáciles y deliciosas para hace en casa!
+        </h2>
+        
+        <i class="fa-solid fa-oven"></i>
+        <section id="menu-recetas">
+
+          <div class="menu-recetas">
+            <ul>
+              <li>
+                <a
+                  href="./pages/destacados.html"
+                  target="iframe-categorias"
+                >
+                <img
+                width="200px"
+                src="./assets/img/random image/destaque.jpeg"
+                alt=""
+              />
+                  DESTACADOS DEL DÍA</a
+                >
+              </li>
+
+              
+              <li>
+                <a
+                  href="./pages/aperitivos.html"
+                  target="iframe-categorias"
+                >
+                <img
+                width="200px"
+                src="./assets/img/random image/Aperitivo.jpeg"
+                alt=""
+              />
+                APERITIVOS</li>
+
+              <li>
+                <a
+                  href="./pages/almuerzo.html"
+                  target="iframe-categorias"
+                >
+                <img
+                width="200px"
+                src="./assets/img/random image/Lunch.jpeg"
+                alt=""
+              />
+                ALMUERZO</li>
+              
+              <li>
+                <a
+                  href="./pages/postres.html"
+                  target="iframe-categorias"
+                >
+                <img
+                width="200px"
+                src="./assets/img/random image/postre.jpeg"
+                alt=""/>
+                POSTRES</li>
+            </ul>
+            <iframe
+              id="iframe-categorias"
+              name="iframe-categorias"
+            ></iframe>
+          </div>
+        </section>
+
+        <section id="receta-completa">
+          <iframe
+            id="iframe-receta"
+            name="iframe-receta"
+          ></iframe>
+        </section>
+
+      </div>
     </main>
-</body>
+
+    <footer></footer>
+  </body>
 </html>

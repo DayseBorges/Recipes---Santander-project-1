@@ -1,0 +1,60 @@
+.container {
+    position: relative;
+    padding-top: 100px;
+    padding-left: 80px;
+}
+
+.img {
+    position: absolute;
+    top: -10px;
+    right: 90px;
+    width: 500px;
+    display: flex;
+    height: auto;
+    border-radius: 0px 0px 300px 300px;
+}
+
+@media screen and (max-width: 600px) {
+    .img {
+        position: static;
+        display: block;
+        margin: auto;
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+    }
+}
+
+.form {
+    font-size: 25px;
+    color: rgb(255, 67, 34);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    
+}
+
+.text2 {
+    font-size: 45px;
+    max-width: 600px;
+    color: rgb(100, 89, 93);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.boton {
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    width: 120px;
+    background-color:  rgb(255, 67, 34);
+    color: white;
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.3s;
+}
+
+.boton:hover {
+    cursor: pointer;
+    background-color:  rgb(134, 128, 130);
+    transition: 0.3s;
+}
