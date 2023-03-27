@@ -93,7 +93,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: #cec495;
+    background-color: #e6dca9;
     padding: 30px;
 }
   
@@ -137,6 +137,15 @@ a {
     padding: 0;
   }
   
+
+/* Footer */
+
+.footer-container {
+    background-color: #e6dca9;
+    display: flex;
+}
+
+
 
 /* Responsive */
 
