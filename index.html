@@ -15,7 +15,17 @@
   </head>
 
   <body>
-    <header></header>
+    <header>
+      <nav class="navbar">
+        <img class="logo" src="./assets/img/random image/chef (2).png" alt="logo de cocinalo">
+        <ul>
+          <li>Quienes Somos</li>
+          <li>Contactanos</li>
+          <li>Subscribite</li>
+          <input type="text" placeholder="Buscá tu receta">
+        </ul>
+      </nav>
+    </header>
 
     <main>
       <div class="container">
@@ -24,49 +34,70 @@
           src="./assets/img/landing image/spaghetti-copia.jpg"
           alt="landing image"
         />
+        
         <h2 class="texto1">No sabés que cocinar hoy?</h2>
         <h2 class="texto2">
           Acá vas a encontrar recetas fáciles y deliciosas para hace en casa!
         </h2>
-        <br /><br />
-        <a href="./pages/contacto.html"
-          ><button class="botones">Contactanos</button></a
-        >
-        <a href="#subscipcion"><button class="botones">Suscribite</button></a>
-
+        
+        <i class="fa-solid fa-oven"></i>
         <section id="menu-recetas">
+
           <div class="menu-recetas">
-            <p>Categorías</p>
             <ul>
-              <img
-                width="200px"
-                src="./assets/img/recetas/Ñoquis De Papa Con Salsa De Tomate.jpg"
-                alt=""
-              />
               <li>
                 <a
                   href="./pages/destacados.html"
                   target="iframe-categorias"
                 >
-                  Destacados del día</a
+                <img
+                width="200px"
+                src="./assets/img/random image/destaque.jpeg"
+                alt=""
+              />
+                  DESTACADOS DEL DÍA</a
                 >
               </li>
 
-              <img
+              
+              <li>
+                <a
+                  href="./pages/aperitivos.html"
+                  target="iframe-categorias"
+                >
+                <img
                 width="200px"
-                src="./assets/img/random image/entrada.jpg"
+                src="./assets/img/random image/Aperitivo.jpeg"
                 alt=""
               />
-              <li>Aperitivos</li>
+                APERITIVOS</li>
 
-              <li>Almuerzos</li>
-              <li>Postres</li>
+              <li>
+                <a
+                  href="./pages/almuerzo.html"
+                  target="iframe-categorias"
+                >
+                <img
+                width="200px"
+                src="./assets/img/random image/Lunch.jpeg"
+                alt=""
+              />
+                ALMUERZO</li>
+              
+              <li>
+                <a
+                  href="./pages/postres.html"
+                  target="iframe-categorias"
+                >
+                <img
+                width="200px"
+                src="./assets/img/random image/postre.jpeg"
+                alt=""/>
+                POSTRES</li>
             </ul>
             <iframe
               id="iframe-categorias"
               name="iframe-categorias"
-              width="100%"
-              height="200px"
             ></iframe>
           </div>
         </section>
@@ -75,8 +106,6 @@
           <iframe
             id="iframe-receta"
             name="iframe-receta"
-            width="100%"
-            height="500px"
           ></iframe>
         </section>
 
