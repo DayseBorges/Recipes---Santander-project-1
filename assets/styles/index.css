@@ -1,5 +1,9 @@
 
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
 .container {
     position: relative;
     padding-top: 100px;
@@ -8,7 +12,7 @@
 
 a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 
@@ -119,14 +123,20 @@ a {
 
 #iframe-categorias {
     width: 100%;
-    height: 200px;
+    height: 20vw;
+    border: none;
 }
 
 #iframe-receta {
+    display: block;
+    border: none;
     width: 100%;
-    height: 40rem;
-    margin-left: -6vw;
-}
+    height: 100%;
+    min-height: 40rem;
+    margin: 0;
+    padding: 0;
+  }
+  
 
 /* Responsive */
 
