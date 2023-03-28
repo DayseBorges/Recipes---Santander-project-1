@@ -11,18 +11,29 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Recipes</title>
   </head>
 
   <body>
     <header>
       <nav class="navbar">
-        <img class="logo" src="./assets/img/random image/chef (2).png" alt="logo de cocinalo, consiste en un gorro de cocinero y abajo de este se ubican un tenedor y una cuchara">
+        <img
+          class="logo"
+          src="./assets/img/random image/chef (2).png"
+          alt="logo de cocinalo, consiste en un gorro de cocinero y abajo de este se ubican un tenedor y una cuchara"
+        />
         <ul>
           <a href="./pages/quienes-somos.html"><li>Quienes Somos</li></a>
           <a href="./pages/contacto.html"><li>Contactanos</li></a>
           <a href="./pages/subscripcion.html"><li>Subscribite</li></a>
-          <input type="text" placeholder="Buscá tu receta">
+          <input type="text" placeholder="Buscá tu receta" />
         </ul>
       </nav>
     </header>
@@ -34,84 +45,89 @@
           src="./assets/img/landing image/spaghetti-copia.jpg"
           alt="imagen de landing page, consiste en ingredientes para preparación de fideos ubicados sobre una mesa de madera"
         />
-        
+
         <h2 class="texto1">No sabés que cocinar hoy?</h2>
         <h2 class="texto2">
           Acá vas a encontrar recetas fáciles y deliciosas para hace en casa!
         </h2>
-        
+
         <i class="fa-solid fa-oven"></i>
         <section id="menu-recetas">
-
           <div class="menu-recetas">
             <ul>
               <li>
-                <a
-                  href="./pages/destacados.html"
-                  target="iframe-categorias"
-                >
-                <img
-                width="200px"
-                src="./assets/img/random image/destaque.jpeg"
-                alt="imagen ilustrativa de las recetas destacadas del día"
-              />
+                <a href="./pages/destacados.html" target="iframe-categorias">
+                  <img
+                    width="200px"
+                    src="./assets/img/random image/destaque.jpeg"
+                    alt="imagen ilustrativa de las recetas destacadas del día"
+                  />
                   DESTACADOS DEL DÍA</a
                 >
               </li>
 
-              
               <li>
-                <a
-                  href="./pages/aperitivos.html"
-                  target="iframe-categorias"
+                <a href="./pages/aperitivos.html" target="iframe-categorias">
+                  <img
+                    width="200px"
+                    src="./assets/img/random image/Aperitivo.jpeg"
+                    alt="imagen ilustrativa de las recetas de aperitivos"
+                  />
+                  APERITIVOS</a
                 >
-                <img
-                width="200px"
-                src="./assets/img/random image/Aperitivo.jpeg"
-                alt="imagen ilustrativa de las recetas de aperitivos"
-              />
-                APERITIVOS</li>
+              </li>
 
               <li>
-                <a
-                  href="./pages/almuerzo.html"
-                  target="iframe-categorias"
+                <a href="./pages/almuerzo.html" target="iframe-categorias">
+                  <img
+                    width="200px"
+                    src="./assets/img/random image/Lunch.jpeg"
+                    alt="imagen ilustrativa de las recetas de almuerzos"
+                  />
+                  ALMUERZO</a
                 >
-                <img
-                width="200px"
-                src="./assets/img/random image/Lunch.jpeg"
-                alt="imagen ilustrativa de las recetas de almuerzos"
-              />
-                ALMUERZO</li>
-              
+              </li>
+
               <li>
-                <a
-                  href="./pages/postres.html"
-                  target="iframe-categorias"
+                <a href="./pages/postres.html" target="iframe-categorias">
+                  <img
+                    width="200px"
+                    src="./assets/img/random image/postre.jpeg"
+                    alt="imagen ilustrativa de las recetas de postres"
+                  />
+                  POSTRES</a
                 >
-                <img
-                width="200px"
-                src="./assets/img/random image/postre.jpeg"
-                alt="imagen ilustrativa de las recetas de postres"/>
-                POSTRES</li>
+              </li>
             </ul>
-            <iframe
-              id="iframe-categorias"
-              name="iframe-categorias"
-            ></iframe>
+            <iframe id="iframe-categorias" name="iframe-categorias"></iframe>
           </div>
         </section>
 
         <section id="receta-completa">
-          <iframe
-            id="iframe-receta"
-            name="iframe-receta"
-          ></iframe>
+          <iframe id="iframe-receta" name="iframe-receta"></iframe>
         </section>
-
       </div>
     </main>
 
-    <footer></footer>
+    <footer>
+      <div class="footer-container">
+        <section>
+          <p>Seguinos en las redes</p>
+          <i class="fa-brands fa-square-instagram fa-2xl" style="color: #000000;"></i>
+          <i
+            class="fa-brands fa-square-facebook fa-2xl"
+            style="color: #000000"
+          ></i>
+          <i class="fa-brands fa-square-twitter fa-2xl" style="color: #000000;"></i>
+          <i class="fa-brands fa-youtube fa-2xl" style="color: #000000;"></i>
+        </section>
+        <section>
+          <p>© 2023 colinalo.com</p> 
+          <p>All Rights Reserved</p> 
+          <p>Made by</p> 
+          <a href="https://github.com/DayseBorges/Recipes---Santander-project-1">Leticia & Dayse</a> 
+        </section>
+      </div>
+    </footer>
   </body>
 </html>
