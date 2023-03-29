@@ -25,14 +25,9 @@ h3 {
 
 a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
 }
 
 /* Nav Page */
-.logo {
-    width: 75px;
-    margin-right: 320px;
-}
 
 .navbar {
     display: flex;
@@ -44,18 +39,22 @@ a {
     background-color: rgb(255, 67, 34);
 }
 
+.logo {
+    width: 75px;
+    margin-right: 390px;
+}
+
 .navbar ul {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
-    color: white;
-
   }
   
 .navbar li {
     margin: 0px 20px;
     cursor: pointer;
+    color: white;
 }
   
 .navbar input {
@@ -90,16 +89,17 @@ a {
 }
 
 /* Categorias */
+
+
 .menu-recetas {
     margin-top: 25vw;
     margin-left: -6vw;
-    
 }
 
 .menu-recetas ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: #e6dca9;
     padding: 30px;
 }
@@ -109,8 +109,6 @@ a {
     margin-bottom: 30px;
     text-align: center;
     cursor: pointer;
-    color: #000000eb;
-    font-size: 1.2rem;
 }
   
 .menu-recetas img {
@@ -118,7 +116,7 @@ a {
     width: 50vw;
     border-radius: 50%;
     max-width: 200px;
-    height: 15vw;
+    height: 200px; 
     object-fit: cover;
     border: solid 10px rgb(255, 67, 34);
     margin-bottom: 30px;
@@ -231,7 +229,12 @@ a {
         max-width: 600px;
         font-size: 50px;
     }
+    .logo {
+        margin-right: 800px;
+    }
+
 }
+
 
 /* Para pantallas de monitores a partir de 14 pulgadas */
 @media screen and (min-width: 1100px) {
