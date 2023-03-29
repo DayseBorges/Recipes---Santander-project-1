@@ -34,7 +34,7 @@ a {
     justify-content: end;
     align-items: center;
     background-color: #fff;
-    padding: 20px;
+    padding: 10px;
     font-size: 1.4rem;
     background-color: rgb(255, 67, 34);
 }
@@ -89,7 +89,6 @@ a {
 }
 
 /* Categorias */
-
 
 .menu-recetas {
     margin-top: 25vw;
@@ -177,6 +176,7 @@ a {
     border: 2px solid rgb(255, 67, 34);
     border-radius: 5px;
 }
+
 .contacto-input{
     height: 30px;
 }
