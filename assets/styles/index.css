@@ -158,7 +158,7 @@ a {
 .contacto {
     width: 50%;
     margin: auto;
-    padding-top: 100px;
+    padding: 100px 0px;
     text-align: center;
 }
 .imagen-contacto {
@@ -183,13 +183,17 @@ a {
     height: 30px;
 }
 
+.contacto-textarea {
+    height: 150px;
+}
+
 .contacto-input:focus, .contacto-textarea:focus {
     border: 3px solid rgb(255, 67, 34);
     outline: none;
 }
 
-.contacto-textarea {
-    height: 150px;
+.contacto-boton {
+
 }
 
 /* Responsive */
