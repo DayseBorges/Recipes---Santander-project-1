@@ -1,9 +1,22 @@
-
-
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Montserrat', sans-serif;
 }
+
+h1 {
+    font-size: 2.8rem;
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+h3 {
+    font-size: 1.7rem;
+}
+
+
 .container {
     position: relative;
     padding-top: 100px;
@@ -14,7 +27,6 @@ a {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
-
 
 /* Nav Page */
 .logo {
@@ -28,7 +40,7 @@ a {
     align-items: center;
     background-color: #fff;
     padding: 20px;
-    font-size: 20px;
+    font-size: 1.4rem;
     background-color: rgb(255, 67, 34);
 }
 
@@ -38,7 +50,7 @@ a {
     margin: 0;
     padding: 0;
     color: white;
-    font-family: 'Montserrat', sans-serif;
+
   }
   
 .navbar li {
@@ -50,10 +62,9 @@ a {
     margin-left: 100px;
     border: none;
     padding: 5px;
-    font-size: 16px;
+    font-size: 1rem;
     border-radius: 5px;
     background-color: #ffffffeb;
-    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -69,16 +80,12 @@ a {
 }
 
 .texto1 {
-    font-size: 35px;
     color: rgb(255, 67, 34);
-    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
 
 .texto2 {
-    font-size: 45px;
     color: rgb(100, 89, 93);
-    font-family: 'Montserrat', sans-serif;
     font-weight: 800;
 }
 
@@ -103,9 +110,7 @@ a {
     text-align: center;
     cursor: pointer;
     color: #000000eb;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    
+    font-size: 1.2rem;
 }
   
 .menu-recetas img {
@@ -139,6 +144,9 @@ a {
   
 
 /* Footer */
+.contacto {
+    width: 30%;
+}
 
 .footer-container {
     background-color: #e6dca9;
@@ -147,7 +155,16 @@ a {
 
 
 /* Página de Contacto */
-
+.contacto {
+    width: 50%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+.imagen-contacto {
+    width: 30%;
+    margin-bottom: 50px;
+}
 
 
 /* Responsive */
