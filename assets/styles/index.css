@@ -191,8 +191,31 @@ a {
     outline: none;
 }
 
-.contacto-boton {
+.btn {
+  background: #fc7244;
+  background-image: -webkit-linear-gradient(top, #fc7244, #ff4322);
+  background-image: -moz-linear-gradient(top, #fc7244, #ff4322);
+  background-image: -ms-linear-gradient(top, #fc7244, #ff4322);
+  background-image: -o-linear-gradient(top, #fc7244, #ff4322);
+  background-image: linear-gradient(to bottom, #fc7244, #ff4322);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  border:none;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
 
+.btn:hover {
+  background: #ff4322;
+  background-image: -webkit-linear-gradient(top, #ff4322, #ff4124);
+  background-image: -moz-linear-gradient(top, #ff4322, #ff4124);
+  background-image: -ms-linear-gradient(top, #ff4322, #ff4124);
+  background-image: -o-linear-gradient(top, #ff4322, #ff4124);
+  background-image: linear-gradient(to bottom, #ff4322, #ff4124);
+  text-decoration: none;
 }
 
 /* Responsive */
@@ -224,7 +247,7 @@ a {
     }
     .texto1 {
         margin-top: 80px;
-        font-size: 40px;
+        font-size: 2.5rem;
     }
     .texto2 {
         max-width: 600px;
