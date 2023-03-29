@@ -139,20 +139,10 @@ a {
     margin: 0;
     padding: 0;
   }
-  
-
-/* Footer */
-.contacto {
-    width: 30%;
-}
-
-.footer-container {
-    background-color: #e6dca9;
-    display: flex;
-}
 
 
 /* Página de Contacto */
+
 .contacto {
     width: 50%;
     margin: auto;
@@ -218,6 +208,40 @@ a {
   background-image: linear-gradient(to bottom, #ff4322, #ff4124);
   text-decoration: none;
 }
+
+/* Footer */
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #e6dca9;
+    height: 8vw;
+}
+
+.iconos {
+    list-style: none;
+   
+}
+
+.iconos li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.icono-img {
+    width: 2.4vw;
+    cursor: pointer;
+}
+
+.info {
+    justify-content: flex-end;
+}
+.github {
+    color: #575757;
+}
+
+
 
 /* Responsive */
 
