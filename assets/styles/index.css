@@ -194,7 +194,7 @@ a {
   border:none;
   color: #ffffff;
   font-size: 20px;
-  padding: 10px 20px 10px 20px;
+  padding: 13px 33px 13px 33px;
   text-decoration: none;
   cursor: pointer;
 }
@@ -217,6 +217,7 @@ a {
     align-items: center;
     background-color: #e6dca9;
     height: 8vw;
+    padding: 20px;
 }
 
 .seguinos {

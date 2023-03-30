@@ -3,6 +3,16 @@
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
 }
+.cocineras {
+   width: 50vw;
+   margin: auto;
+}
+
+.cocineras img {
+    width: 30%;
+    padding: 50px 40px;
+    margin-left: 35px;
+}
 
 .quienes-somos {
     width: 50vw;
