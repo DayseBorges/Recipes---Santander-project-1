@@ -32,7 +32,6 @@
   margin-bottom: 3vw;
   width: 45vw;
 }
-
 .receta-img {
   position: absolute;
   top: 10vw;
@@ -40,9 +39,46 @@
   width: 450px;
   display: flex;
   height: auto;
-}
+} 
 
 .imagen {
   border-radius: 2vw;
   border: solid 2px grey;
+}
+
+@media screen and (max-width: 1230px) {
+  .receta-img {
+    position: absolute;
+    top: 55vw;
+    left: 15vw;
+    width: 30vw;
+  }
+  .imagen {
+    width: 70vw;
+  }
+  .ingredientes {
+    margin-top: 90vw;
+    margin-left: 40px;
+  }
+  .ingredientes h1 {
+    width: 70vw;
+    margin-bottom: 10px;
+  }
+  .ingredientes p, .ingredientes ul{
+    margin-top: 20px;
+    width: 80vw;
+  }
+  .ingredientes h6, .ingredientes h4 {
+    width: 60vw;
+  }
+  .procedimiento ol {
+    width: 70vw;
+    margin-top: 4vw;
+  }
+  .procedimiento {
+    margin-top: 11vw;
+    margin-left: 40px;
+    margin-bottom: 20vw;
+  }
+
 }

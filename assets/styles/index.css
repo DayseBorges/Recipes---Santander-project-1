@@ -32,7 +32,6 @@ a {
   display: flex;
   justify-content: end;
   align-items: center;
-  background-color: #fff;
   padding: 10px;
   font-size: 1.4rem;
   background-color: rgb(255, 67, 34);
@@ -120,12 +119,13 @@ a {
   margin-bottom: 30px;
 }
 
-.menu-recetas a {
-    color: #343434;
+.menu-recetas img:hover {
+  transition: 2s;
+  transform: rotate(360deg) ;
 }
 
-.menu-recetas a:hover {
-    
+.menu-recetas a {
+    color: #343434;
 }
 
 
@@ -232,11 +232,66 @@ a {
     width: 100%;
     max-width: 200px;
     height: auto;
-    margin-top: -110px;
+    margin-top: -100px;
   }
   .container {
     padding-left: 0px;
     text-align: center;
+  }
+  .navbar {
+    justify-content: center;
+    padding: 10px;
+  }
+  .logo {
+    margin-right: 0px;
+    width: 15vw;
+  }
+  .navbar input {
+    flex-direction: column;
+    margin-left: 0px;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .navbar ul {
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 10px 10px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 2.2rem;
+  }
+  .menu-recetas img {
+    height: 50vw;
+  }
+  #iframe-categorias {
+    height: 645vw;
+  }
+  .receta-item {
+    justify-content: center;
+    text-align: center;
+  }
+  .receta-item img {
+    justify-content: center;
+    text-align: center;
+    max-width: 120vw;
+  }
+  .contenedor-flecha {
+    display:flex;
+    position: relative;
+    margin-left: 30vw;
+    margin-top: 0vw
+  }
+  .footer-container {
+    height: 40vw;
+    width: 80vw;
+  }
+  .icono-img {
+    width: 6vw;
   }
 }
 
