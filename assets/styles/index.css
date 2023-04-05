@@ -169,6 +169,12 @@ a {
     border: solid 2px rgb(100, 89, 93);
     float: left;
     margin-right: 30px;
+    transition: 0.5s;
+}
+
+.receta-item img:hover {
+  transition: 0.5s;
+  transform: scale(1.05);
 }
 
 .receta-item-titulo > p{
