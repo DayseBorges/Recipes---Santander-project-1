@@ -1,0 +1,82 @@
+
+.container {
+    width: 50%;
+    margin: auto;
+    padding: 100px 0px;
+    text-align: center;
+}
+.imagen-contacto {
+    width: 27%;
+    margin-bottom: 30px;
+}
+
+.container h3 {
+    color: rgb(255, 67, 34);
+    padding: 60px 0px;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vw;
+    text-align: left;
+}
+
+.preferencias th, .frequencia th {
+    letter-spacing: 2px;
+    color: #484747;
+    padding-right: 2.3vw;
+    padding-bottom: 1vw;
+    text-align: left;
+}
+
+.preferencias tr, .frequencia tr {
+    font-size: 1.1em;
+    color: #d03e00;
+}
+  
+.subscripcion-input{
+    width: 80%;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(255, 67, 34);
+    border-radius: 5px;
+}
+
+.subscripcion-input{
+    height: 30px;
+}
+
+.subscripcion-input:focus {
+    border: 3px solid rgb(255, 67, 34);
+    outline: none;
+}
+
+.btn {
+  background: #fc7244;
+  background-image: -webkit-linear-gradient(top, #fc7244, #ff4322);
+  background-image: -moz-linear-gradient(top, #fc7244, #ff4322);
+  background-image: -ms-linear-gradient(top, #fc7244, #ff4322);
+  background-image: -o-linear-gradient(top, #fc7244, #ff4322);
+  background-image: linear-gradient(to bottom, #fc7244, #ff4322);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  border:none;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 13px 33px 13px 33px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #ff4322;
+  background-image: -webkit-linear-gradient(top, #ff4322, #ff4124);
+  background-image: -moz-linear-gradient(top, #ff4322, #ff4124);
+  background-image: -ms-linear-gradient(top, #ff4322, #ff4124);
+  background-image: -o-linear-gradient(top, #ff4322, #ff4124);
+  background-image: linear-gradient(to bottom, #ff4322, #ff4124);
+  text-decoration: none;
+}
