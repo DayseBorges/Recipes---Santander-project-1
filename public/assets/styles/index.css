@@ -145,6 +145,13 @@ a {
 
 }
 
+.contenedor-flecha-almuerzo {
+  display:flex;
+  position: relative;
+  margin-left: 70vw;
+  margin-top:-24vw
+}
+
 .listado-recetas {
     margin: 50px auto;
     width: 70%;
